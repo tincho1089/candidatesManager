@@ -1,0 +1,57 @@
+.Card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 6rem;
+}
+
+.CardContent {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  padding: 0px !important;
+}
+
+.cardActions {
+  background: #cad8f7;
+  border: 1px solid white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-wrap: anywhere;
+  height: 100%;
+  text-align: center;
+}
+
+.even {
+  background-color: #d7e5f4f6 !important;
+}
+
+.odd {
+  background-color: #c8d7f7f6 !important;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.approved {
+  height: 100%;
+  width: 100%;
+  background-color: #c6ef87;
+}

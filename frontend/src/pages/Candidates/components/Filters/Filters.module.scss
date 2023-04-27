@@ -1,0 +1,15 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.filterPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+  flex: 1;
+  z-index: 0;
+}
